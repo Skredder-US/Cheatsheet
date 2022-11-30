@@ -1,0 +1,70 @@
+/* I couldn't get this working in a Codecademy workspace */
+@font-face {
+  font-family: Apercu;
+  src: url("fonts/Apercu Font Family/Apercu\ Light.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+  font-family: Apercu;
+}
+
+nav {
+  border-bottom: 1px solid black;
+  padding-left: 5.5%;
+  height: 63px;
+}
+
+nav ul {
+  /* only way I could get them to center vertically */
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 .55em;
+  font-size: 15px;
+  letter-spacing: .5px;
+}
+
+nav li img {
+  height: 28px;  
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: #3A10E5;
+}
+
+.triangle-down {
+  display: inline-block;
+  margin-left: 8px;
+  margin-bottom: 1px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 7px solid black;
+}
+
+#right-start {
+  padding-left: 26.5%;
+}
+
+nav .right {
+  padding: 0 1.25em;
+}
+
+nav .right img {
+  height: 25px;
+}
+
+#account {
+  height: 42px;
+  padding: -.25em 1em;
+}
