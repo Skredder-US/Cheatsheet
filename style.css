@@ -89,19 +89,28 @@ nav .right img {
 #main-header h1, #main-header h3 {
   margin: auto;
   color: white;
-}
-
-.non-bold {
-  font-weight: normal;
-}
-
-#main-header h3, #main-header h1 {
   padding-left: 455px;
 }
 
 #main-header h3 {
   padding-top: 50px;
   font-size: 15px;
+}
+
+.non-bold {
+  font-weight: normal;
+}
+
+#main-header a {
+  text-decoration: none;  
+}
+
+#main-header .non-bold a {
+  color: white;
+}
+
+#main-header .non-bold a:hover {
+  color: #FFD300;
 }
 
 #main-header h1 {
@@ -117,7 +126,6 @@ nav .right img {
 
 #main-header li {
   display: inline-block;
-  color: #FFD300;
   font-size: 15px;
   padding-right: 20px;
 }
@@ -127,6 +135,10 @@ nav .right img {
   top: 7px;
   padding-right: 5px;
   height: 23px;
+}
+
+#main-header li a {
+  color: #FFD300;
 }
 
 #main-header .triangle-down {
