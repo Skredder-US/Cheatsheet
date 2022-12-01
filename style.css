@@ -17,37 +17,37 @@ body {
   letter-spacing: .5px;
 }
 
-/* navbar */
+a {
+  text-decoration: none;
+  color: black;
+}
 
-nav {
+a:hover {
+  color: #3A10E5;
+}
+
+/* header nav */
+
+header nav {
   border-bottom: 1px solid black;
   padding-left: 5.5%;
   height: 63px;
 }
 
-nav ul {
+header nav ul {
   /* only way I could get them to center vertically */
   display: flex;
   align-items: center;
 }
 
-nav li {
+header nav li {
   display: inline-block;
   padding: 0 .57em;
   font-size: 15px;
 }
 
-nav li img {
+header nav li img {
   height: 28px;  
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-}
-
-nav a:hover {
-  color: #3A10E5;
 }
 
 .triangle-down {
@@ -65,11 +65,11 @@ nav a:hover {
   padding-left: 26.25%;
 }
 
-nav .right {
+header nav .right {
   padding: 0 1.2em;
 }
 
-nav .right img {
+header nav .right img {
   height: 25px;
 }
 
@@ -99,10 +99,6 @@ nav .right img {
 
 .non-bold {
   font-weight: normal;
-}
-
-#main-header a {
-  text-decoration: none;  
 }
 
 #main-header .non-bold a {
@@ -144,4 +140,45 @@ nav .right img {
 #main-header .triangle-down {
   border-top: 7px solid #FFD300;
   margin-left: 5px;
+}
+
+/* topics nav */
+
+main nav {
+  width: 226px;
+  height: 291px;
+  border: 2px solid #10162F;
+  background-color: white;
+  position: relative;
+  top: -56px;
+  left: 151px;
+  padding: 5px 0 0 0;
+  letter-spacing: .4px;
+}
+
+main nav h3, main nav li {
+  padding-left: 16px;
+}
+
+main nav h3 {
+  text-transform: uppercase;
+  font-size: 17px;
+  margin-bottom: 12px;
+}
+
+main nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+main nav li {
+  font-size: 15px;
+  padding-top: 11.5px;
+  padding-bottom: 11.5px;
+}
+
+main nav .here {
+  font-weight: bold;
+  border-left: 8px solid #10162F;
 }
