@@ -18,3 +18,9 @@ My biggest challenge (funnily enough) was using Snip and Sketch to grab images o
 This commit includes small changes to the navbar, not much though. 
 
 (just noticed I forgot dynamic functionality like :hover so I'm going to go back and complete that)
+
+topics nav
+---
+This nav is the closest to original website, so much that I kind of want to make the previous sections more precise! Overall I'm getting fooled which website I'm on, switching back and forth shows small jumps in location but they really do look similar. 
+
+My biggest challenge was adding the border-left to the topic list item that signified the current location! I started with padding on the nav element but later found I needed a border to touch the side of the nav. I needed to think through the process of implementing each element before starting the first one, I'll try that next time! 
