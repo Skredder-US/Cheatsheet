@@ -24,3 +24,13 @@ topics nav
 This nav is the closest to original website, so much that I kind of want to make the previous sections more precise! Overall I'm getting fooled which website I'm on, switching back and forth shows small jumps in location but they really do look similar. 
 
 My biggest challenge was adding the border-left to the topic list item that signified the current location! I started with padding on the nav element but later found I needed a border to touch the side of the nav. I needed to think through the process of implementing each element before starting the first one, I'll try that next time! 
+
+table
+---
+My final addition! I used a table instead of whatever they were doing with divs called "layout grid". I decided this was enough work and close enough for learning purposes. I want to redo this whole assignment because I found it a valueable learning experience! I will tackle it differently and try to get even more precise! 
+
+My biggest challenge was using a table and getting the spacing correct. 
+
+final thoughts
+---
+I figure they used some method of procedural generation with a resizing layout to handle all cheatsheet pages and device sizes, I used manual input and a single size to match my webpage to theirs. I enjoyed this assignment and found it educational. I will reattempt this assignment, maybe I'll learn even more!
