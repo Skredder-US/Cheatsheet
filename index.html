@@ -46,6 +46,32 @@
           <li><a href="#">Typography</a></li>
         </ul>
       </nav>
+
+      <table>
+        <tr>
+          <th>CSS <span class="code">z-index</span> property</th>
+        </tr>
+        <tr>
+          <td>
+            <p>The CSS <span class="code">z-index</span> property specifies how far back or how far forward an element will appear on a web page when it overlaps other elements.</p>
+            <p>The <span class="code">z-index</span> property uses integer values, which can be positive or negative values. The element with the highest <span class="code">z-index</span> value will be at the foreground, while the element with the lowest <span class="code">z-index</span> value will be at the back.</p>
+          </td>
+          <td>
+            <div class="code-block">
+              <span class="comment">//`element1` will overlap `element2`</span><br />
+              <span class="selector">.element1</span> {<br />
+              &nbsp;&nbsp;<span class="property">position</span>: absolute;<br />
+              &nbsp;&nbsp;<span class="property">z-index</span>: 1;<br />
+              }<br />
+              <br />
+              <span class="selector">.element2</span> {<br />
+              &nbsp;&nbsp;<span class="property">position</span>: absolute;<br />
+              &nbsp;&nbsp;<span class="property">z-index</span>: -1;<br />
+              }
+            </div>
+          </td>
+        </tr>
+      </table>
     </main>
   </body>
 </html>
