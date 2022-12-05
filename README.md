@@ -1,6 +1,12 @@
 # Cheatsheet
 Open-ended final project of Web Development Fundamentals. I decided to make a simplified version of Codecademy's cheatsheet. 
 
+My site:
+![image](https://user-images.githubusercontent.com/99221208/205731107-ab01fe82-daae-4c15-a379-caf16ee052ae.png)
+
+Their site:
+![image](https://user-images.githubusercontent.com/99221208/205731329-7bf01cd4-5cab-4583-9900-37f59c332024.png)
+
 navbar
 ---
 My first big commit. I decided to tackle the nav bar first. The static comparison is pretty close between mine and Codecademy's but not all the dynamic functionality is there. They used svg instead of img and that allowed for pictures to turn colors on hover, only my text turns purplish on hover. Also svg allows for background-color and border to change on hover. Svg looks too complicated for the scope of my project so I settled for images. 
